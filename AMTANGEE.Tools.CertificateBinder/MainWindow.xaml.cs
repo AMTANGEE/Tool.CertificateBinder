@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Linq;
 
-namespace CertBindToolWpf
+namespace AMTANGEE.Tools.CertificateBinder
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

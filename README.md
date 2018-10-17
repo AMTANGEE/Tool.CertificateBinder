@@ -15,7 +15,7 @@ This tool manages the SSL certificates and port settings for these AMTANGEE serv
 ## Feedback 
 
 * Send us an email at support@amtangee.com
-* File an issue here in [GitHub](https://github.com/amtangee/tool.certificatebinder/issues)
+* File an issue here in [GitHub](https://github.com/amtangee/tools.certificatebinder/issues)
 
 ## License
 

@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Microsoft.Win32;
 
-namespace CertBindToolWpf
+namespace AMTANGEE.Tools.CertificateBinder
 {
     /// <summary>
     /// Interaction logic for AddCertificateForm.xaml

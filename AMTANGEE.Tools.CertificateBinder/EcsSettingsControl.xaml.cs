@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
-namespace CertBindToolWpf
+namespace AMTANGEE.Tools.CertificateBinder
 {
     /// <summary>
     /// Interaction logic for EcsSettingsControl.xaml
