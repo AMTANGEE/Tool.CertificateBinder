@@ -1,0 +1,22 @@
+﻿<Window x:Class="CertBindToolWpf.RenameCertificateForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CertBindToolWpf"
+        mc:Ignorable="d"
+        Title="Zertifikat umbenennen" Width="300" SizeToContent="Height">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+       <TextBlock Margin="5,5,5,2">Neuer Anzeigename:</TextBlock>
+        <TextBox Grid.Row="1" x:Name="TbFriendlyName" Margin="10,0,5,5" TextChanged="TbFriendlyName_OnTextChanged"></TextBox>
+        <DockPanel Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5,5,5,10">
+            <Button x:Name="BtnCancel" Click="BtnCancel_OnClick" Padding="8,5" Margin="0,0,5,0">Abbrechen</Button>
+            <Button x:Name="BtnOk" IsEnabled="False" Click="BtnOk_OnClick" Padding="8,5" Margin="0,0,0,0">OK</Button>
+        </DockPanel>
+    </Grid>
+</Window>
