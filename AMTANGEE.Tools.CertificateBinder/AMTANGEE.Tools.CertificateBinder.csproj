@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2A8C0C35-E6EA-4774-A694-772A52C42CA4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CertBindToolWpf</RootNamespace>
+    <RootNamespace>AMTANGEE.Tools.CertificateBinder</RootNamespace>
     <AssemblyName>CertificateBinder</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

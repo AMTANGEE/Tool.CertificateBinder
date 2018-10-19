@@ -1,7 +1,7 @@
-﻿<Application x:Class="CertBindToolWpf.App"
+﻿<Application x:Class="AMTANGEE.Tools.CertificateBinder.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:CertBindToolWpf"
+             xmlns:local="clr-namespace:AMTANGEE.Tools.CertificateBinder"
              StartupUri="MainWindow.xaml"
              Startup="Application_Startup">
     <Application.Resources>
